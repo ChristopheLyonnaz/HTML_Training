@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Autre page avec les forms</title>
+  </head>
+  <body>
+    <form action="mailto:christophe.lyonnaz@gmail.com" method="post" enctype="text/plain">
+      <label>Nom: </label>
+      <input type="text" name="userName">
+      <br>
+      <label>Prénom: </label>
+      <input type="text" name="userFirstName">
+      <br>
+      <label>Date de naissance: </label>
+      <input type="date" name="birthDate">
+      <br>
+      <label>Sexe: </label>
+      <input type="radio" id="yes" name="sexe" value="yes" checked>
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="sexe" value="no">
+      <label for="no">No</label>
+      <br>
+      <label>Enter your email address: </label>
+      <input type="email" name="userEmail">
+      <br>
+      <label>Enter your password: </label>
+      <input type="password" name="userPassword">
+      <br>
+      <label>Enter your message: </label><br>
+      <textarea rows="8" cols="30" name="userMessage"></textarea>
+      <br>
+      <input type="submit">
+    </form>
+
+    <p><a href="../index.html">Retour à la page principale</a></p>
+
+  </body>
+</html>
